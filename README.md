@@ -4,7 +4,6 @@ A simple, interactive, rule-based chatbot implemented in Python. This project de
 Continuous Conversation Loop: Keeps the chat active until explicitly exited.  
 Case-Insensitive Matching: Accurately processes inputs regardless of capitalization (e.g., handles "HELLO", "Hello", and "hello" identically).  
 Flexible Input Handling: Utilizes sub-string matching so phrases like "hello there!" or "goodbye!" trigger the correct responses.  
-Clean Code Architecture: Separates the core response logic from the user interface using dedicated functions.  
 # Key Concepts Used:
 Functions: Organized structure utilizing modular design for the reply logic and the main loop.  
 Loops: A continuous loop managing the interaction state until a termination keyword is given.  
